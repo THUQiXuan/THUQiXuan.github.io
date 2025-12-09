@@ -2,96 +2,193 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Xuan Qi
+    - name: Location
+      value: Beijing, China
+    - name: Email
+      value: qi-x22@mails.tsinghua.edu.cn
+    - name: Phone
+      value: (+86) 186-6071-1689
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.S. in Computer Science (Yao Class)
+      institution: Tsinghua University, Institute for Interdisciplinary Information Sciences (IIIS)
+      year: Sept 2022 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Undergraduate in IIIS (Yao Class; directed by Andrew C. Yao, Turing Award laureate 2000).
+        - GPA: 3.85/4.00.
+        - Selected coursework: Natural Language Processing (A+); Economics and Computation (A+); Introduction to Programming in C/C++ (A+); Causal and Statistical Learning (A+); Mathematics for Computer Science (A); Introduction to Computer Systems (A); Abstract Algebra (A); Probability and Statistics (A); Introduction to Optimization Theory (A); Algorithm Design (A); Machine Learning (A); Game Theory (A).
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern, Wang Lab @ Princeton AI for Accelerating Invention
+      institution: Princeton University (Advisor: Prof. Mengdi Wang)
+      year: Nov 2024 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Co-led the development of Alita, a general agent with minimal pre-definition and maximal evolution via dynamic Model Context Protocol (MCP) creation, achieving top-1 performance on the GAIA benchmark.
+        - Extended the Alita framework to Alita-G, which systematically abstracts and curates MCP tools to transform generalist agents into domain experts and provide a principled pathway from generalist capabilities to domain-specific competence.
+        - Served as co-first author of "A Survey of Self-Evolving Agents," mapping the emerging landscape of self-evolving architectures and agentic systems.
+        - Served as co-first author of "Shallow Preference Signals: Large Language Model Aligns Even Better with Truncated Data?," showing that truncated preference signals can effectively steer model behavior and revealing that models often rely on shallow heuristics for alignment.
+        - Contributed to AgentDistill, exploring training-free distillation via Model Context Protocols to transfer reasoning and tool-use abilities between agents.
+    - title: Research Intern, Cognitive Computation Group
+      institution: University of Pennsylvania (Advisor: Prof. Dan Roth)
+      year: May 2025 – Aug 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Worked on the DataProphet project, analyzing cross-modal transferability of supervision signals across reasoning tasks.
+        - Performed real-data reweighting and synthetic-data selection to construct high-quality training subsets that substantially outperform strong baselines under the same compute budget.
+        - Revealed systematic patterns of supervision transfer that improve multimodal LLM data synthesis and training strategies.
+    - title: Research Assistant, EconCS Lab
+      institution: Tsinghua University, IIIS (Advisor: Assistant Prof. Shuran Zheng)
+      year: Jul 2024 – Jan 2025
       description:
+        - Developed a metric based on pointwise mutual information to value datasets in machine learning and encourage honest data contributions.
+        - Carried out theoretical analyses and experiments to validate its effectiveness in "Truthful Dataset Valuation by Pointwise Mutual Information."
+    - title: Research Assistant, Jinesis AI Lab
+      institution: University of Toronto (Advisor: Assistant Prof. Zhijing Jin)
+      year: Aug 2024 – Feb 2025
+      description:
+        - Investigated data efficiency under preference-based alignment.
+        - Contributed to "Difficulty-Based Preference Data Selection by DPO Implicit Reward Gap" by using implicit reward gaps to guide preference data selection.
+    - title: Research Assistant, Xu Wei Research Group
+      institution: Tsinghua University, IIIS (with Master's student Rongwu Xu)
+      year: Mar 2024 – Jul 2024
+      description:
+        - Initiated the DebateQA project, constructing a dataset of over 2,000 debatable questions on controversial topics.
+        - Designed an evaluation framework that combined perplexity measures with model-based judging to evaluate LLMs on debatable knowledge.
+    - title: Research Assistant, 3DVICI Lab
+      institution: Tsinghua University, IIIS (Advisor: Assistant Prof. Yi Li)
+      year: Aug 2023 – Oct 2024
+      description:
+        - Spearheaded the data pipeline for "HDI4D: A Hand-Deformable Object Interaction Dataset for Soft Body Hanging."
+        - Designed robust data-collection pipelines, managed complex annotations, and empirically validated models to support robotic understanding of deformable object interactions.
+    - title: Team Leader, The 2nd Robot Dog Competition
+      institution: Department of Automation, Tsinghua University
+      year: Apr 2024 – Jul 2024
+      description:
+        - Trained Xiaomi’s CyberDog2 to play soccer by training locomotion and dribbling skills in simulation using reinforcement learning and deploying them to the real robot dog.
+        - Combined locomotion and dribbling controllers using a rule-based approach and tuned interference frequency, default poses, and PD control parameters to mitigate the sim-to-real gap.
+        - Developed evaluation methods based on the collected dataset and won the Best Technology Award of the 2nd Robot Dog Competition.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: "Demystifying Supervision Data Generalization in Multimodal LMs"
+      year: 2026
+      description:
+        - Xuan Qi, Luxi He, Dan Roth, Xingyu Fu.
+        - In submission to a top conference.
+    - title: "Alita: Generalist Agent Enabling Scalable Agentic Reasoning with Minimal Predefinition and Maximal Self-Evolution"
+      year: 2025
+      description:
+        - Jiahao Qiu*, Xuan Qi*, Tongcheng Zhang*, Xinzhe Juan, Jiacheng Guo, Yifu Lu, Yimin Wang, Zixin Yao, Qihan Ren, Xun Jiang, Xing Zhou, Dongrui Liu, Ling Yang, Yue Wu, Kaixuan Huang, Shilong Liu, Hongru Wang, Mengdi Wang.
+        - In submission to a top conference.
+    - title: "Alita-G: Self-Evolving Generative Agent for Agent Generation"
+      year: 2025
+      description:
+        - Jiahao Qiu*, Xuan Qi*, Hongru Wang*, Xinzhe Juan, Yimin Wang, Zelin Zhao, Jiayi Geng, Jiacheng Guo, Peihang Li, Jingzhe Shi, Shilong Liu, Mengdi Wang.
+        - In submission to a top conference.
+    - title: "A Survey of Self-Evolving Agents: On Path to Artificial Super Intelligence"
+      year: 2025
+      description:
+        - Huan-ang Gao*, Jiayi Geng*, Wenyue Hua*, Mengkang Hu*, Xinzhe Juan*, Hongzhang Liu*, Shilong Liu*, Jiahao Qiu*, Xuan Qi*, ...
+        - TMLR, under review.
+    - title: "Shallow Preference Signals: Large Language Model Aligns Even Better with Truncated Data?"
+      year: 2025
+      description:
+        - Xuan Qi*, Jiahao Qiu*, Xinzhe Juan, Yue Wu, Mengdi Wang.
+        - ACL 2025 Workshop.
+    - title: "Difficulty-Based Preference Data Selection by DPO Implicit Reward Gap"
+      year: 2025
+      description:
+        - Xuan Qi, Rongwu Xu, Zhijing Jin.
+        - In submission to a top conference.
+    - title: "On Path to Multimodal Historical Reasoning: HistBench and HistAgent"
+      year: 2025
+      description:
+        - Jiahao Qiu*, Fulian Xiao*, Yimin Wang*, Yuchen Mao*, Yijia Chen*, Xinzhe Juan, Siran Wang, Xuan Qi, Tongcheng Zhang, Zixin Yao, et al.
+        - In submission to a top conference.
+    - title: "AgentDistill: Training-Free Agent Distillation with Generalizable MCP Boxes"
+      year: 2025
+      description:
+        - Jiahao Qiu*, Xinzhe Juan*, Yimin Wang*, Ling Yang*, Xuan Qi, Tongcheng Zhang, Jiacheng Guo, Yifu Lu, Zixin Yao, Hongru Wang, Shilong Liu, Xun Jiang, Liu Leqi, Mengdi Wang.
+        - In submission to a top conference.
+    - title: "DebateQA: Evaluating Question Answering on Debatable Knowledge"
+      year: 2024
+      description:
+        - Rongwu Xu*, Xuan Qi*, Zehan Qi, Wei Xu, Zhijiang Guo.
+        - Conditionally accepted by TACL.
+    - title: "Truthful Dataset Valuation by Pointwise Mutual Information"
+      year: 2024
+      description:
+        - Shuran Zheng*, Xuan Qi*, Rui Ray Chen*, Yongchan Kwon, James Zou.
+        - ICLR 2025 Workshop.
+    - title: "HDI4D: A Hand-Deformable Object Interaction Dataset for Soft Body Hanging"
+      year: 2024
+      description:
+        - Pengyang Shi*, Xiaoxi Liang*, Xiaomeng Xu, Xuan Qi, Tongzhou Du, Yi Li.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Yao Award (10 out of 96).
+        - Tsinghua Friends – Huawei Scholars First-Class Scholarship (10 out of 96).
+        - Science and Technology Innovation Excellence Scholarship, Tsinghua University (10 out of 96).
+        - Outstanding Volunteer and Public Service Scholarship, Tsinghua University (5 out of 96).
+    - year: 2024
       items:
-        - Max Planck Medal
+        - Tsinghua University Comprehensive Excellence Scholarship (15 out of 96, awarded to those with outstanding performance), 2024.
+        - Tsinghua Friendship – Huang Yicong and Spouse Scholarship (10 out of 96).
+        - Best Technology Award of the 2nd Robot Dog Competition organized by the Department of Automation (1 out of 50 teams).
+    - year: 2023
+      items:
+        - Tsinghua University Comprehensive Excellence Scholarship (15 out of 96, awarded to those with outstanding performance), 2023.
+        - Tsinghua Friends – Zhang Mingwei Scholarship (10 out of 96).
+        - First Prize in the Provincial Division of the Chinese Mathematics Competitions.
+    - year: 2021
+      items:
+        - Outstanding Student of Shandong Province (High School).
+        - First Prize in the Provincial Division of the Chinese High School Mathematics League.
+        - Second Prize in the National High School Physics Competition.
+        - Second Prize in the Provincial Division of the National High School Chemistry League.
+    - year: 2020
+      items:
+        - First Prize in the Provincial Division of the National Olympiad in Informatics in Provinces (NOIP).
+    - year: 2019
+      items:
+        - Second Prize in the Provincial Division of the National Olympiad in Informatics in Provinces (NOIP).
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Large Language Models and Alignment
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Preference-based alignment and data-centric preference data selection.
+        - Shallow preference signals, implicit reward gaps, and model alignment behavior.
+    - title: Agentic and Self-Evolving Systems
       items:
-        - Description 1.
-        - Description 2.
+        - Generalist and domain-specialist agents with tool use and Model Context Protocols.
+        - Training-free agent distillation and scalable agentic reasoning.
+    - title: Multimodal and Data-Centric Learning
+      items:
+        - Supervision transfer and data generalization in multimodal LMs.
+        - Dataset valuation, difficulty-based data selection, and synthetic data design.
+
+- title: Skills
+  type: map
+  contents:
+    - name: Languages
+      value: Chinese, English
+    - name: Programming Languages
+      value: Python, C/C++, JavaScript
+    - name: Tools and Platforms
+      value: Git, LaTeX, SQL, Xiaomi CyberDog2, Raspberry Pi
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Passionate Go player; achieved third place in the San Yi Cup National Dan Promotion Tournament and ranked in the top ten multiple times in the Shandong Youth and Children Championships.
