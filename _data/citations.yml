@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-17'
+  last_updated: '2025-12-26'
 papers:
   YBuQ4kUAAAAJ:2osOgNQ5qMEC:
     citations: 1
@@ -10,7 +10,7 @@ papers:
     title: Proper Dataset Valuation by Pointwise Mutual Information
     year: '2025'
   YBuQ4kUAAAAJ:Tyk-4Ss8FVUC:
-    citations: 6
+    citations: 7
     title: 'AgentDistill: Training-Free Agent Distillation with Generalizable MCP Boxes'
     year: '2025'
   YBuQ4kUAAAAJ:UeHWp8X0CEIC:
@@ -22,7 +22,7 @@ papers:
     title: Difficulty-Based Preference Data Selection by DPO Implicit Reward Gap
     year: '2025'
   YBuQ4kUAAAAJ:Y0pCki6q_DkC:
-    citations: 48
+    citations: 54
     title: 'A survey of self-evolving agents: On path to artificial super intelligence'
     year: '2025'
   YBuQ4kUAAAAJ:d1gkVwhDpl0C:
@@ -30,11 +30,11 @@ papers:
     title: Truthful dataset valuation by pointwise mutual information
     year: '2024'
   YBuQ4kUAAAAJ:eQOLeE2rZwMC:
-    citations: 1
-    title: 'Alita-G: Self-Evolving Generative Agent for Agent Generation'
+    citations: 2
+    title: 'Alita-g: Self-evolving generative agent for agent generation'
     year: '2025'
   YBuQ4kUAAAAJ:qjMakFHDy7sC:
-    citations: 49
+    citations: 53
     title: 'Alita: Generalist agent enabling scalable agentic reasoning with minimal predefinition and maximal self-evolution'
     year: '2025'
   YBuQ4kUAAAAJ:u-x6o8ySG0sC:
