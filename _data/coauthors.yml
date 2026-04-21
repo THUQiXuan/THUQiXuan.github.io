@@ -1,34 +1,41 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"qiu":
+  - firstname: ["Jiahao", "J."]
+    url: https://scholar.google.com/citations?user=your_qiu_id
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"wang":
+  - firstname: ["Mengdi", "M."]
+    url: https://mwang.princeton.edu/
+  - firstname: ["Hongru", "H."]
+    url: https://scholar.google.com/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"roth":
+  - firstname: ["Dan", "D."]
+    url: https://cogcomp.seas.upenn.edu/page/instructor/1
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"jin":
+  - firstname: ["Zhijing", "Z."]
+    url: https://zhijing-jin.com/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"zheng":
+  - firstname: ["Shuran", "S."]
+    url: https://www.shuranzheng.com/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"xu":
+  - firstname: ["Rongwu", "R."]
+    url: https://scholar.google.com/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"juan":
+  - firstname: ["Xinzhe", "X."]
+    url: https://scholar.google.com/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"liu":
+  - firstname: ["Shilong", "S."]
+    url: https://scholar.google.com/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"fu":
+  - firstname: ["Xingyu", "X."]
+    url: https://scholar.google.com/
+
+"he":
+  - firstname: ["Luxi", "L."]
+    url: https://scholar.google.com/
