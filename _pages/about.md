@@ -40,8 +40,6 @@ My research broadly focuses on **AI agents** and **LLM alignment**. I am particu
 <!-- - **Reinforce Omega AI Start-up** (Sept 2025–Feb 2026): AI agent workflows and tool-use systems -->
 - **University of Pennsylvania, Cognitive Computation Group** (May–Aug 2025): multimodal reasoning (Advisor: [Prof. Dan Roth](https://cogcomp.seas.upenn.edu/page/instructor/1))
 - **Princeton University, Wang Lab** (Nov 2024–Feb 2026): Co-led [Alita](https://arxiv.org/abs/2505.20286) and [Alita-G](https://arxiv.org/abs/2510.23601) (Advisor: [Prof. Mengdi Wang](https://mwang.princeton.edu/))
-<!-- - **Tsinghua EconCS Lab** (Jul–Jan 2025): Dataset valuation (Advisor: [Prof. Shuran Zheng](https://www.shuranzheng.com/))
-- **University of Toronto, Jinesis AI Lab** (Aug 2024–Feb 2025): Preference data selection (Advisor: [Prof. Zhijing Jin](https://zhijing-jin.com/)) -->
 
 <!-- I serve as a reviewer for **ARR 2025**, **ICLR 2026**, and **AAAI 2026**. Outside research, I am a passionate Go player (3rd place, *San Yi Cup* National Dan Promotion Tournament). -->
 
