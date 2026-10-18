@@ -62,7 +62,7 @@
       "summary": "Advisor: Prof. Dan Roth",
       "highlights": [
         "Worked on the DataProphet project, analyzing cross-modal transferability of supervision signals across reasoning tasks and using these findings for real-data reweighting and synthetic-data selection.",
-        "The selected data subsets were substantially higher quality than strong baselines, so models trained under the same budget clearly outperformed them; this work led to [Demystifying Supervision Data Generalization in Multimodal LMs](https://openreview.net/forum?id=iYMZKz5BGz) (ICLR 2026)."
+        "The selected data subsets were substantially higher quality than strong baselines, so models trained under the same budget clearly outperformed them. Paper: [Demystifying Supervision Data Generalization in Multimodal LMs](https://openreview.net/forum?id=iYMZKz5BGz)."
       ]
     },
     {
@@ -75,7 +75,7 @@
       "highlights": [
         "Co-led the development of [Alita](https://arxiv.org/abs/2505.20286), a generalist agent with minimal predefinition and maximal self-evolution via dynamic Model Context Protocol (MCP) creation, which achieved top-1 performance on the GAIA benchmark.",
         "Extended Alita to [Alita-G](https://arxiv.org/abs/2510.23601), which abstracts and curates MCP tools to turn generalist agents into domain experts.",
-        "Co-first author of [A Survey of Self-Evolving Agents](https://arxiv.org/abs/2507.21046) (TMLR 2026) and [Shallow Preference Signals](https://arxiv.org/abs/2505.17122) (ACL 2025 Workshop); contributed to [AgentDistill](https://arxiv.org/abs/2506.14728)."
+        "Co-first author of [A Survey of Self-Evolving Agents](https://arxiv.org/abs/2507.21046) and [Shallow Preference Signals](https://arxiv.org/abs/2505.17122); contributed to [AgentDistill](https://arxiv.org/abs/2506.14728)."
       ]
     },
     {
@@ -86,7 +86,7 @@
       "endDate": "2025-01-31",
       "summary": "Advisor: Assistant Prof. Shuran Zheng",
       "highlights": [
-        "Developed a pointwise-mutual-information metric to value datasets and encourage honest data contributions, with theoretical analyses and experiments, in [Proper Dataset Valuation by Pointwise Mutual Information](https://arxiv.org/abs/2405.18253) (EC 2026)."
+        "Developed a pointwise-mutual-information metric to value datasets and encourage honest data contributions, with theoretical analyses and experiments, in [Proper Dataset Valuation by Pointwise Mutual Information](https://arxiv.org/abs/2405.18253)."
       ]
     },
     {
